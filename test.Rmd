@@ -1,0 +1,37 @@
+---
+title: Test of R
+author: |
+  | Liam
+  | ECRI, Imperial College London
+date: "Jan 2025"
+output: pdf_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+\newpage
+\tableofcontents
+\listoftables
+\newpage
+
+
+Getting Started with R
+======================
+
+# Introduction
+
+This is an *R Notebook*.
+
+R Notebooks combine text and code into a single document.
+
+Text in a Notebook can be given special formatting using something
+called *Markdown*. There is **some basic formatting** in this document,
+but it is not important to understand right away - we will take a closer
+look later.
+
+Code in an R Notebook is kept in *code chunks* that appear in grey
+shaded boxes, like the one below.
+```{r Intro to Code Chunks}
+2 + 3
+```
