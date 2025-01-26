@@ -1,3 +1,2 @@
-FROM ubuntu:focal
-RUN apt update && apt install -y --no-install-recommends r-base
-RUN apt install -y pandoc
+FROM ghcr.io/rocker-org/devcontainer/tidyverse:4
+RUN sudo apt update && sudo apt install -y pandoc
