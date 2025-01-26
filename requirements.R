@@ -6,8 +6,8 @@ if (!require(rmarkdown)) {
   install.packages("rmarkdown", repos="http://cran.r-project.org", ask = FALSE)
 }
 
-if (!require(jsonlite)) {
-  install.packages("jsonlite", repos="http://cran.r-project.org", ask = FALSE)
+if (!require(tinytex)) {
+  install.packages("tinytex", repos="http://cran.r-project.org", ask = FALSE)
 }
 
 if (!require(dplyr)) {
